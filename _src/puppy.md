@@ -1,7 +1,8 @@
 ---
 layout: layout.njk
+title: Dogs
+pageClass: Dogs
 ---
-# Dogs
 
 ## Characteristics
 

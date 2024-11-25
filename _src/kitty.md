@@ -1,7 +1,8 @@
 ---
 layout: layout.njk
+title: Cats
+pageClass: Cats
 ---
-# Cats
 
 ## Characteristics
 

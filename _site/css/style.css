@@ -1,14 +1,45 @@
 body {
   margin: 0%;
-  padding: 5vw 10vw;
   background-color: #D97E8E;
-  color: rgb(0, 0, 0);
+  color: rgb(233, 233, 233);
   font-family: "Sniglet", system-ui;
 }
 
-h1 {
-  font-family: "Modak", system-ui;
-  font-size: 2em;
+header {
+  background-color: #CEECF2;
+  padding: 0.3vw;
+}
+
+.text {
+  padding: 5vw 10vw;
+}
+
+h2 {
+  font-family: "Coiny", system-ui;
+}
+
+.hero {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.hero h1 {
+  font-family: "Coiny", system-ui;
+  font-size: 4rem;
+  color: #F2B279;
+}
+.hero.Dogs {
+  background-image: url("../img/dog.jpg");
+}
+.hero.Cats {
+  background-image: url("../img/cat.jpg");
+}
+.hero.home {
+  background-image: url("../img/home.jpg");
 }
 
 /*# sourceMappingURL=style.css.map */

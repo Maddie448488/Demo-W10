@@ -7,7 +7,7 @@
      <link rel="stylesheet" href="../css/style.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
@@ -16,6 +16,9 @@
      <header>
           {% include 'nav.html' %}
      </header>
-     {{ content | safe }}
+     <div class="hero {{pageClass}}">
+          <h1>{{title}}</h1>
+     </div>
+     <div class="text">{{ content | safe }}</div>
 </body>
 </html>

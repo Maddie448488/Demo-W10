@@ -1,7 +1,8 @@
 ---
 layout: layout.njk
+title: The Common House Pets
+pageClass: home
 ---
-# The Common House Pets
 
 ## About
 
